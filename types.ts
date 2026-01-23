@@ -8,6 +8,7 @@ export interface CourseModule {
   title: string;
   description: string;
   topics: string[];
+  image?: string;
 }
 
 export interface Course {
